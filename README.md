@@ -116,3 +116,21 @@ root@ubuntu2204-Jenkings:/etc/sudoers.d#
 
 ![alt text](image-6.png)
 
+# (BONUS) Configuration du Webhook GitHub pour Déclencher le Pipeline :
+
+1.  Generate a SSH key in ubuntu (OS use for this project)
+
+```sh
+ssh-keygen -t ed25519 -C "cpelaezdc@gmail.com"
+```
+
+2.  Add ssh key in GITHUG
+
+![alt text](image-7.png)
+
+3.  Create a new job Freestyle
+
+![alt text](image-8.png)
+
+
+4.  In Jenkins Create credentials with this SSH key
