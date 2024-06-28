@@ -81,5 +81,9 @@ vboxuser@ubuntu2204-Jenkings:~/Documents/jenkins-data-pipeline$ git push origin 
 
 ![alt text](image-4.png)
 
+2.   Add a Jenkinsfile and push to GitHub
+
+![alt text](image-5.png)
+
 
 
