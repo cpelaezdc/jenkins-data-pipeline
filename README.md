@@ -112,5 +112,7 @@ root@ubuntu2204-Jenkings:/etc/sudoers.d# visudo --check
 root@ubuntu2204-Jenkings:/etc/sudoers.d#
 ```
 
--  The current update of this README file in GITHUB must lauch a build pipeline process
+-  The current update of this README file in GITHUB must lauch a build pipeline process:
+
+![alt text](image-6.png)
 
