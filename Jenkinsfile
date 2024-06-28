@@ -8,10 +8,11 @@ pipeline {
                     // Install pip if maybe not installed in current machine
                     // -y to automatic Yes to prompts
                     sh 'sudo apt install -y python3-pip'
-                    // Choisissez la commande en fonction de votre script
+                    // Install pandas in case doesn't exist
                     sh 'sudo pip install pandas' // Installer les dépendances
+                    //  Run Python execution
                     sh 'python3 data_analysis.py' // Exécuter le script Python
-                    sh 'ls'
+                    
                 }
             }
         }
