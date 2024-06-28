@@ -136,3 +136,6 @@ root@ubuntu2204-Jenkings:/etc/sudoers.d#
 
 4.   Update README file and verify if a pipeline is launch.
 
+![alt text](image-15.png)
+
+![alt text](image-16.png)
