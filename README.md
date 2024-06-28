@@ -1,5 +1,7 @@
 Examen mi-session-PARTIE3
 
+# Partie 1 : Préparation du Dépôt GitHub
+
 1.  Create directory jenkins-data-pipeline and initialize git.
 
 ```bash
@@ -65,5 +67,19 @@ vboxuser@ubuntu2204-Jenkings:~/Documents/jenkins-data-pipeline$ git commit -m "I
 anced data anlysis script"
 vboxuser@ubuntu2204-Jenkings:~/Documents/jenkins-data-pipeline$ git push origin main
 ```
+
+
+# Partie 2 : Configuration du Pipeline Jenkins
+
+1.   Add a new job as pipeline
+
+![alt text](image.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
 
 
