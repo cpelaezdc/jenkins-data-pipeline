@@ -89,17 +89,17 @@ vboxuser@ubuntu2204-Jenkings:~/Documents/jenkins-data-pipeline$ git push origin 
 
 # Partie 3 : Testez Votre Configuration
 
--  Add sudo privileges to Jenkins user to execute pip install command.
+-  Add sudo privileges to Jenkins user to execute pip install command and avoid ask me for password during the sudo execution command.
 
-```sh
+```bash
 root@ubuntu2204-Jenkings:/etc/sudoers.d# touch jenkins-user-privileges
 root@ubuntu2204-Jenkings:/etc/sudoers.d# nano jenkins-user-privileges
 root@ubuntu2204-Jenkings:/etc/sudoers.d# cat jenkins-user-privileges
 jenkins ALL=(ALL) NOPASSWD: ALL
-root@ubuntu2204-Jenkings:/etc/sudoers.d# ls -l
-total 8
--rw-r--r-- 1 root root   32 Jun 28 10:28 jenkins-user-privileges
--r--r----- 1 root root 1096 Feb  8  2022 README
+```
+-  Add only lecture privileges to jenkins user
+
+```bash
 root@ubuntu2204-Jenkings:/etc/sudoers.d# chmod 440 jenkins-user-privileges
 root@ubuntu2204-Jenkings:/etc/sudoers.d# ls -l
 total 8
@@ -112,5 +112,5 @@ root@ubuntu2204-Jenkings:/etc/sudoers.d# visudo --check
 root@ubuntu2204-Jenkings:/etc/sudoers.d#
 ```
 
-
+-  The current update of this README file in GITHUB must lauch a build pipeline process
 
