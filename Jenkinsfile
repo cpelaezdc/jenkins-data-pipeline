@@ -6,8 +6,8 @@ pipeline {
                 script {
                     sh 'whoami'
                     // Choisissez la commande en fonction de votre script
-                    //sh 'sudo pip install pandas' // Installer les dépendances
-                    //sh 'python3 data_analysis.py' // Exécuter le script Python
+                    sh 'sudo pip install pandas' // Installer les dépendances
+                    sh 'python3 data_analysis.py' // Exécuter le script Python
                     sh 'ls'
                 }
             }
