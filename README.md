@@ -87,3 +87,7 @@ vboxuser@ubuntu2204-Jenkings:~/Documents/jenkins-data-pipeline$ git push origin 
 
 
 
+# Partie 3 : Testez Votre Configuration
+
+
+
