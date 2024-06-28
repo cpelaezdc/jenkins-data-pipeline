@@ -118,21 +118,21 @@ root@ubuntu2204-Jenkings:/etc/sudoers.d#
 
 # (BONUS) Configuration du Webhook GitHub pour Déclencher le Pipeline :
 
-1.  Generate a SSH key in ubuntu (OS use for this project)
+1.  The current jenkins runs in a local ubuntu machine.  Create a tunel to have access to the local address by the public with  NGROK
 
-```sh
-ssh-keygen -t ed25519 -C "cpelaezdc@gmail.com"
-```
+![alt text](image-9.png)
 
-2.  Add ssh key in GITHUG
+2.  Create a webhook with this public address in GITHUB for this repository.
 
-![alt text](image-7.png)
+![alt text](image-10.png)
 
-3.  Create a new job Freestyle
+![alt text](image-11.png)
 
-![alt text](image-8.png)
+3.  Create a new pipeline that runs when a github event arrive.
 
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
 
-4.  In Jenkins Create credentials with this SSH key
+4.   Update README file and verify if a pipeline is launch.
 
-test2223
